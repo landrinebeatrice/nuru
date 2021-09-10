@@ -1,0 +1,206 @@
+body {
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.search{
+	   outline:none;
+    border:none;
+    width : 100%;
+    background: transparent;
+  	font-size:large;
+  	border-bottom:2px solid rgba(16, 41, 80, 0.911);
+  	margin-left:80px;
+}
+
+a {
+  color: #5bc0de;
+  cursor: pointer;
+}
+
+a:hover {
+  color: black;
+  text-decoration:none;
+}
+.list-group-item{
+    background: transparent;
+}
+
+.sk-panel{
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+    border:0px solid #b6b3b3;
+    position: relative;
+    padding: 5px;
+    padding-left:80px;
+    margin-bottom: 20px;
+}
+.sk-panel img{
+    position: absolute;
+    top:10px;
+    left:10px;
+}
+.sk-login{
+    width: 80%;
+    height: 0px;
+    background-color: transparent;
+    border:0px;
+    position: relative;
+    padding: 5px;
+    padding-left:0px;
+    margin-bottom: 0px;
+}
+.livi-login{
+	background-image: url("../img/dimension.png");
+	padding: 10px;
+}
+.livi-classe{
+	border:1px solid #5bc0de;
+	 border-radius:5px;
+	
+}
+.badge.in,.badgeSolde{
+	background-color:#5bc0de;
+}
+
+.badge.in,.badgeRed{
+  background-color:red;
+}
+
+
+.gs-content{
+    /*margin-top:30px;*/
+    margin-top: 0px;
+    overflow-y:scroll; 
+    max-height:400px;
+    background-color: transparent;
+}
+.sk-panel a{
+    color: #3572ef;
+}
+
+.sk-panel.suppress{
+    padding: 10px;
+    background-color:transparent;
+    color:#5bc0de;
+}
+.sk-panel.suppress a{
+    color:#333;
+}
+.not-defined-msg{
+    color:#333; 
+    font-size:16px;
+    background-color: #e7f6e0;
+}
+.nav.nav-pills li.active a {
+  background: none;
+  background-color: #0080FF;
+  color: white;
+}
+.nav.nav-pills li.disabled a {
+  background: none;
+  color: #9b9a9a;
+}
+
+header[role="banner"] {
+  height: 50px;
+  margin-bottom: 50px;
+}
+.btn-primary{
+    background: rgb(5, 45, 85)
+}
+.btn-primary:hover{
+    background: rgb(5, 45, 85)
+}
+.btn-export{
+  background: #3c763d;
+}
+
+.sk-btn-annule{
+	background-color:#90a7c2;
+}
+
+.modal-header {
+  background-color: #263238;
+  color: #ECEFF1;
+  height:30px;
+  padding-top:5px;
+  text-align: center;
+
+}
+
+.modal-dialog {
+ max-width: 450px;
+}
+
+.gs-center{
+  text-align: center;
+}
+
+.gs-color{
+  color:#5bc0de;
+}
+
+a.nav-link {
+  color: black;
+}
+
+
+.help-block{
+    font-size:12px;
+}
+.suppress-msg{
+    display: inline-block;
+    background-color: #fdfd6a;
+    border: 1px solid #fc7676;
+    padding: 10px;
+    color: #333;
+    width: 98%;
+    margin: 10px 0;
+}
+.suppress-msg a.btn-link{
+    color: #333;
+    font-size: 14px;
+}
+.suppress-msg a.btn-link:hover{        
+    color: #8d8a8a;
+}
+.badge.in,.badgeUnique{
+	background-color:#90a7c2;
+}
+.badgeGs{
+  background: #5bc0de;
+}
+.badge.out,.badgeMensuel{
+	background-color:#f5ae71;
+}
+.badge.b{
+    background-color:#ebebeb;
+	background-color:#75c68b;
+}
+.r{
+	background-color:#f5ae71;
+	
+}
+.rw{
+	background-color:#90a7c2;
+}
+.cash.out{
+    
+	background-color:#fdcfa7;
+}
+.cash.in{
+    background: none;
+	background-color: transparent;
+}
+.cash.b{
+	background-color:#beefcc;
+}
+.modal{
+    /*background: red;
+    background-image: url("../img/dimension.png");*/
+}

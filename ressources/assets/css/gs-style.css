@@ -1,0 +1,41 @@
+/*======================STYLE SMS=====================*/
+
+/*backgroud content
+.content-wrapper{
+	background-image: url("../img/dimension.png");
+}*/
+
+/*table style*/
+#example1 thead{
+  border-bottom: 3px solid #5bee;
+  border-top: 3px solid #5bee;
+  /*border-left: 3px solid #5bee;
+  border-right: 3px solid #5bee;*/
+  
+}
+
+.dataTables_filter{
+  display: none;
+}
+
+/*acces et non acces*/
+.yes{
+	background: #00a7d0;
+}
+.no{
+	background: #EF5350;
+}
+
+.input-group span{
+	background: #5bee;
+}
+
+.gs-info{
+	background: #d9edf7;
+}
+.gs-warning{
+	background: #fcf8e3;
+}
+.gs-danger{
+	background: #f2dede;
+}
